@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import styles from './share.module.css';
 import { BACKEND_URL } from "../constant";
+import codesandbox from '../images/codesandbox.png'
 function SharedTask() {
     const { id } = useParams(); // Get the task ID from the URL params
     const [task, setTask] = useState(null); // State to hold the task data
@@ -57,7 +58,7 @@ function SharedTask() {
         <div>
             {task ? (
                 <div className={isMobile ? styles.sharetaskMobile : styles.sharetask}>
-                    <div className={styles.Appname}><img src="/images/codesandbox.png" className={styles.icon}/>Pro Manage</div>
+                    <div className={styles.Appname}><img src={codesandbox} className={styles.icon}/>Pro Manage</div>
                     <div className={styles.displaytask}><div className={styles.taskcontent}>
                     <div className={styles.stylingpriority}>
                             <span className={`${styles.priority} ${priorityClass}`}></span>

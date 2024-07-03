@@ -4,7 +4,7 @@ import { BACKEND_URL } from "../constant";
 import styles from './edittask.module.css';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-
+import Delete from '../images/Delete.png';
 function Edittask({ task, onEdit, onClose }) {
     const [title, setTitle] = useState('');
     const [priority, setPriority] = useState('');
@@ -200,7 +200,7 @@ function Edittask({ task, onEdit, onClose }) {
                                 onChange={(e) => handleChecklistChange(index, e.target.value)}
                                 placeholder="Add a task"
                             />
-                            <button onClick={() => removeChecklistItem(index)}><img src="/images/Delete.png" /></button>
+                            <button onClick={() => removeChecklistItem(index)}><img src={Delete} /></button>
                         </div>
                     ))}</div> 
                     <button className={styles.addnewbtn} onClick={addChecklistItem} disabled={!isLastChecklistItemFilled}>+ Add New</button>

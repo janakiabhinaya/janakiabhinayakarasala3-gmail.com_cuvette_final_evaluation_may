@@ -12,6 +12,7 @@ import { Delete } from './delete';
 import { Edittask } from './edit';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import collapse from '../images/collapse.png';
 function Board() {
     const navigate = useNavigate();
     const [selectedOption, setSelectedOption] = useState('thisweek');
@@ -357,7 +358,7 @@ function Board() {
             </div>
             <div className={styles.task}>
                 <div className={styles.item}>
-                    <div className={styles.taskhead}>Backlog <img src="/images/collapse.png" onClick={() => collapseAllChecklists('backlog')}/></div>
+                    <div className={styles.taskhead}>Backlog <img src={collapse} onClick={() => collapseAllChecklists('backlog')}/></div>
                     <div className={styles.taskholder}>
                         <div className={styles.taskplaced}>{renderTasks(tasks.backlog, 'backlog')}</div>
                     </div>
@@ -367,7 +368,7 @@ function Board() {
                         To do
                         <div className={styles.todohead}>
                             <FaPlus style={{ width: '25px', height: '25px' }} onClick={handlePlusClick} />
-                            <img src="/images/collapse.png" onClick={() => collapseAllChecklists('todo')}/>
+                            <img src={collapse} onClick={() => collapseAllChecklists('todo')}/>
                         </div>
                     </div>
                     {isAddingTask && <Addtask onCancel={handleCancelAddTask} onSave={(taskData) => {
@@ -379,13 +380,13 @@ function Board() {
                     </div>
                 </div>
                 <div className={styles.item}>
-                    <div className={styles.taskhead}>In progress <img src="/images/collapse.png" onClick={() => collapseAllChecklists('inProgress')}/></div>
+                    <div className={styles.taskhead}>In progress <img src={collapse} onClick={() => collapseAllChecklists('inProgress')}/></div>
                     <div className={styles.taskholder}>
                         <div className={styles.taskplaced}>{renderTasks(tasks.inProgress, 'inProgress')}</div>
                     </div>
                 </div>
                 <div className={styles.item}>
-                    <div className={styles.taskhead}>Done <img src="/images/collapse.png" onClick={() => collapseAllChecklists('done')}/></div>
+                    <div className={styles.taskhead}>Done <img src={collapse} onClick={() => collapseAllChecklists('done')}/></div>
                     <div className={styles.taskholder}>
                         <div className={styles.taskplaced}>{renderTasks(tasks.done, 'done')}</div>
                     </div>
