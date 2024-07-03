@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { BACKEND_URL } from "../constant";
 import { FaPlus } from "react-icons/fa";
 import { PiDotsThreeOutlineBold } from "react-icons/pi";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
@@ -52,7 +53,7 @@ function Board() {
                     return;
                 }
 
-                const response = await axios.get(`http://localhost:3000/api/auth/userdata/${userId}`, {
+                const response = await axios.get(`${BACKEND_URL}/api/auth/userdata/${userId}`, {
                     headers: {
                         'Authorization': `Bearer ${token}`
                     }
@@ -137,7 +138,7 @@ function Board() {
                 task.status = status;
             }
 
-            const response = await axios.patch(`http://localhost:3000/api/task/update/${taskId}`, task, {
+            const response = await axios.patch(`${BACKEND_URL}/api/task/update/${taskId}`, task, {
                 headers: {
                     'Authorization': `Bearer ${token}`
                 }

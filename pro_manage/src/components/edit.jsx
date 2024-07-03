@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
+import { BACKEND_URL } from "../constant";
 import styles from './edittask.module.css';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
@@ -27,7 +28,7 @@ function Edittask({ task, onEdit, onClose }) {
     useEffect(() => {
         const loadTaskData = async () => {
             try {
-                const response = await axios.get(`/api/task/taskdata/${task._id}`);
+                const response = await axios.get(`${BACKEND_URL}/api/task/taskdata/${task._id}`);
                 const fetchedTask = response.data;
                 setPriority(fetchedTask.priority || '');
                 setAssignee(fetchedTask.assignee || '');
@@ -49,7 +50,7 @@ function Edittask({ task, onEdit, onClose }) {
                     return;
                 }
 
-                const response = await axios.get(`http://localhost:3000/api/auth/userdata/${userId}`, {
+                const response = await axios.get(`${BACKEND_URL}/api/auth/userdata/${userId}`, {
                     headers: { 'Authorization': `Bearer ${token}` }
                 });
                 const user = response.data;
@@ -109,7 +110,7 @@ function Edittask({ task, onEdit, onClose }) {
         try {
             const userId = localStorage.getItem('userId');
             const token = localStorage.getItem('token');
-            await axios.patch(`http://localhost:3000/api/task/updateAll/${task._id}`, {
+            await axios.patch(`${BACKEND_URL}/api/task/updateAll/${task._id}`, {
                 title,
                 selectpriority: priority,
                 assignto: assignee,

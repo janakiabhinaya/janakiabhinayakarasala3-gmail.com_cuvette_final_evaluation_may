@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './delete.module.css';
 import axios from 'axios';
+import { BACKEND_URL } from "../constant";
 
 function Delete({ taskId, onClose, onDelete }) {
     const handleDelete = async () => {
@@ -11,7 +12,7 @@ function Delete({ taskId, onClose, onDelete }) {
                 return;
             }
 
-            const response = await axios.delete(`http://localhost:3000/api/task/delete/${taskId}`, {
+            const response = await axios.delete(`${BACKEND_URL}/api/task/delete/${taskId}`, {
                 headers: {
                     'Authorization': `Bearer ${token}`
                 }

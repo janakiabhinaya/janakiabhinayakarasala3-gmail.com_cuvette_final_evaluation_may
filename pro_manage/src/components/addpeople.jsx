@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BACKEND_URL } from "../constant";
 import axios from 'axios';
 import styles from './addpeople.module.css';
 
@@ -24,7 +25,7 @@ function Addpeople({ onCancel }) {
                 return;
             }
 
-            const response = await axios.patch('http://localhost:3000/api/auth/addpeople', 
+            const response = await axios.patch(`${BACKEND_URL}/api/auth/addpeople`, 
                 { emails }, 
                 { headers: { 'Authorization': `Bearer ${token}` } });
 

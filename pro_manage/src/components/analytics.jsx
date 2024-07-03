@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { BACKEND_URL } from "../constant";
 import styles from './analytics.module.css';
 import axios from 'axios';
 function Analytics(){
@@ -30,7 +31,7 @@ function Analytics(){
                     alert('User Email not found');
                     return;
                 }
-                const response = await axios.get(`http://localhost:3000/api/task/analytics/${userId}`, {
+                const response = await axios.get(`${BACKEND_URL}/api/task/analytics/${userId}`, {
                     headers: {
                         'Authorization': `Bearer ${token}`,
                         'email': userEmail

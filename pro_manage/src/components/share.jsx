@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import styles from './share.module.css';
-
+import { BACKEND_URL } from "../constant";
 function SharedTask() {
     const { id } = useParams(); // Get the task ID from the URL params
     const [task, setTask] = useState(null); // State to hold the task data
@@ -13,7 +13,7 @@ function SharedTask() {
     useEffect(() => {
         const fetchTask = async () => {
             try {
-                const response = await axios.get(`/api/task/taskdata/${id}`);
+                const response = await axios.get(`${BACKEND_URL}/api/task/taskdata/${id}`);
                 setTask(response.data);
                 setLoading(false);
             } catch (err) {

@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
+import { BACKEND_URL } from "../constant";
 import styles from './addtask.module.css';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
@@ -60,7 +61,7 @@ function Addtask({ onSave, onCancel }) {
                     taskData.duedate = dueDate;
                 }
 
-                const response = await axios.post('http://localhost:3000/api/task/create', taskData, {
+                const response = await axios.post(`${BACKEND_URL}/api/task/create`, taskData, {
                     headers: {
                         'Content-Type': 'application/json',
                         'Authorization': `Bearer ${token}`

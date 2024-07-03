@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { BACKEND_URL } from "../constant";
 
 const fetchTasks = async (selectedOption, setTasks, setError) => {
     try {
@@ -16,7 +17,7 @@ const fetchTasks = async (selectedOption, setTasks, setError) => {
         if (!userEmail) {
             console.warn('User email not found in local storage.');
         }
-        const response = await axios.get(`http://localhost:3000/api/task/user/${userId}`, {
+        const response = await axios.get(`${BACKEND_URL}/api/task/user/${userId}`, {
             headers: {
                 'Authorization': `Bearer ${token}`,
                 'email': userEmail

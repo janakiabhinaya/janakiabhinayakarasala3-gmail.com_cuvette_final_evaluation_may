@@ -5,6 +5,7 @@ import { RiLockLine } from "react-icons/ri";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaRegUser } from "react-icons/fa6";
 import axios from 'axios';
+import { BACKEND_URL } from "../constant";
 import { fetchUserData } from '../services/auth';
 import { useNavigate } from 'react-router-dom';
 function Setting(){
@@ -41,7 +42,7 @@ function Setting(){
         e.preventDefault();
         try {
             const originalEmail = user.email;
-            const response = await axios.patch('/api/auth/userdata/:userId', {
+            const response = await axios.patch(`${BACKEND_URL}/api/auth/userdata/:userId`, {
                 name,
                 email,
                 oldPassword,
