@@ -4,6 +4,7 @@ import { BACKEND_URL } from "../constant";
 import styles from './addtask.module.css';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import deletepng from '../images/Delete.png';
 
 function Addtask({ onSave, onCancel }) {
     const [title, setTitle] = useState('');
@@ -175,7 +176,7 @@ function Addtask({ onSave, onCancel }) {
                                 onChange={(e) => handleChecklistChange(index, e.target.value)}
                                 placeholder="Add a task"
                             />
-                            <button onClick={() => removeChecklistItem(index)}><img src="/images/Delete.png" /></button>
+                            <button onClick={() => removeChecklistItem(index)}><img src={deletepng} /></button>
                         </div>
                     ))}</div> 
                     <button className={styles.addnewbtn} onClick={addChecklistItem} disabled={!isLastChecklistItemFilled}>+ Add New</button>
