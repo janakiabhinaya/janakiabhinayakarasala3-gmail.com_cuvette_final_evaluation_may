@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap');
+.dashboard{
+    height: 100%;
+    width: 100%;
+}
+.introdiv{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.namediv{
+    font-family: Poppins;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    margin-left: 25px;
+}
+.linkCopiedAlert {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 1px solid rgba(72, 193, 181, 1);
+    color: rgba(39, 48, 58, 1);
+    padding: 10px 20px;
+    border-radius: 12px;
+    z-index: 1000;
+    font-family: Poppins;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    background-color: rgba(246, 255, 249, 1);
+}
+.datediv{
+    font-family: Poppins;
+    color: rgba(112, 112, 112, 1);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 25px;
+}
+.selectoption{
+    margin-right: 25px;
+}
+.option{
+    font-family: Poppins;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.headdiv{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.board{
+    font-family: Poppins;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 43.5px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+.board span{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(112, 112, 112, 1);
+    margin-left: 18px;
+    cursor: pointer;
+}
+.filter{
+    border: none;
+    font-family: Poppins;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.task {
+    height: 73%;
+    display: flex;
+    gap: 20px;
+    margin:  0px 20px;
+    overflow-x: auto;
+}
+
+.item {
+    min-width: 300px;
+    height: 96%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(238, 242, 245, 1);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.task::-webkit-scrollbar {
+    height: 12px; /* Height of horizontal scrollbar */
+}
+.task::-webkit-scrollbar-track {
+    background: none; /* Background of the scrollbar track */
+    border-radius: 10px;
+}
+
+.task::-webkit-scrollbar-thumb {
+    background-color: rgba(156, 183, 197, 1); /* Color of the scrollbar handle */
+    border-radius: 10px;
+    border: 1px, 0px, 0px, 0px; /* Padding around the scrollbar handle */
+}
+.taskhead{
+    height: 10%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.taskholder{
+    height: 90%;
+    width: 100%;
+    overflow-y: auto;
+}
+.todohead{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.taskDetails{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    margin-top: 7px;
+}
+.taskdiv1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.stylingpriority{
+    margin-left: 15px;
+    display: flex;
+}
+.priorityname{
+    font-family: Poppins;
+    color: rgba(112, 112, 112, 1);
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+    margin-left: 5px;
+}
+.highPriority {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: rgba(255, 36, 115, 1);
+}
+
+.mediumPriority {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(24, 176, 255, 1);
+}
+
+.lowPriority {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(99, 192, 91, 1);
+}
+.assignicon{
+    font-family: DM Sans;
+    font-size: 7px;
+    font-weight: 400;
+    line-height: 11.11px;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 235, 235, 1);
+    border-radius: 50%;
+    padding: 2px;
+    margin-left: 5px;
+}
+.dots{
+    cursor: pointer;
+    display: flex;
+    margin-right: 20px;
+    position: relative;
+}
+.title{
+    width: 85%;
+    font-family: Poppins;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+    position: relative;
+}
+.title::after {
+    content: attr(data-title);
+    position: absolute;
+    bottom: 100%; 
+    right: 50%;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+    z-index: 1;
+    padding: 0px 4px;
+    font-size: 10px;
+}
+
+.title:hover::after {
+    opacity: 1;
+    visibility: visible;
+} 
+.checklist{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.checklistHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.listing ul li{
+    margin: 10px 0px;
+    list-style-type: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(226, 226, 226, 1);
+    border-radius: 12px;
+    box-sizing: border-box;
+    word-wrap: break-word; /* Break long words if needed */
+    word-break: break-all;
+}
+.checkbox{
+    margin-right: 8px;
+}
+.iconstyle{
+    background-color: rgba(238, 236, 236, 1);
+    color: rgba(118, 117, 117, 1);
+}
+.allbtn{
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.taskButtons{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.taskButtons button{
+    background-color: rgba(238, 236, 236, 1);
+    border-radius: 8px;
+    padding: 5px;
+    color: rgba(118, 117, 117, 1);
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 12px;
+    font-size: 8px;
+    border: none;
+    cursor: pointer;
+}
+.arrowbtn{
+    width: 19px;
+    height: 19px;
+    color: rgba(118, 117, 117, 1);
+    background-color: rgba(238, 236, 236, 1);
+}
+
+.taskholder::-webkit-scrollbar {
+    height: 12px; 
+}
+.taskholder::-webkit-scrollbar-track {
+    background: none; 
+    border-radius: 10px;
+}
+
+.taskholder::-webkit-scrollbar-thumb {
+    background-color: rgba(141, 170, 185, 0.8); 
+    border-radius: 10px;
+    border: 1px, 0px, 0px, 0px;
+}
+.dropdownMenu {
+    position: absolute;
+    top: 100%; 
+    transform: translateX(-85%);
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    z-index: 1000;
+    padding: 10px;
+    display: block;
+}
+.dropdownItem {
+    display: flex;
+    box-sizing: border-box;
+    margin: 10px;
+    padding-right: 70px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.dropdownItem:hover {
+    background: #f0f0f0;
+}
+.dropdownItem:nth-child(3) {
+    color: rgba(207, 54, 54, 1); /* Apply red color to the third item (Delete option) */
+}
+.completedDueDate {
+    background-color: rgba(99, 192, 91, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 12px;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.pastDueDate {
+    background-color: rgba(207, 54, 54, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 12px;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.currentDueDate {
+    background-color: rgba(219, 219, 219, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 12px;
+    font-size: 8px;
+    cursor: pointer;
+}

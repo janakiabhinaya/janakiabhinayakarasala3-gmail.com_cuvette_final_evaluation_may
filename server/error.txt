@@ -1,0 +1,542 @@
+GET /api/auth/userdata 10:51:38 amReferenceError: user is not defined
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:15:45
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+GET /api/auth/userdata 10:52:12 amReferenceError: user is not defined
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:15:45
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+GET /api/auth/userdata 10:52:15 amReferenceError: user is not defined
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:15:45
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+GET /api/task/user/66795241f4f82881e564a318?filter=thisWeek 10:54:23 amReferenceError: user is not defined
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:15:45
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+GET /api/task/user/66795241f4f82881e564a318?filter=thisWeek 10:54:23 amReferenceError: user is not defined
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:15:45
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+GET /api/task/user/66795241f4f82881e564a318?filter=thisWeek 10:54:23 amReferenceError: user is not defined
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:15:45
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+GET /api/task/user/66795241f4f82881e564a318?filter=thisWeek 10:54:23 amReferenceError: user is not defined
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:15:45
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+GET /api/auth/userdata 10:55:28 am
+GET /api/task/user/66795241f4f82881e564a318?filter=thisWeek 11:13:19 amMongooseError: Operation `usertasks.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+GET /userdata/66795241f4f82881e564a318 11:18:20 am
+GET /api/task/user/66795241f4f82881e564a318?filter=thisWeek 11:20:50 amMongooseError: Operation `usertasks.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+GET /api/task/user/66795241f4f82881e564a318?filter=thisWeek 11:21:00 amMongooseError: Operation `usertasks.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+GET /api/task/user/66795241f4f82881e564a318?filter=thisWeek 11:21:00 amMongooseError: Operation `usertasks.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+GET /api/task/user/66795241f4f82881e564a318?filter=thisWeek 11:21:09 amMongooseError: Operation `usertasks.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+GET /api/task/user/66795241f4f82881e564a318?filter=thisWeek 11:21:09 amMongooseError: Operation `usertasks.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+GET /userdata/66795241f4f82881e564a318 11:21:38 am
+GET /userdata/66795241f4f82881e564a318 11:21:38 am
+GET /userdata/66795241f4f82881e564a318 11:27:17 am
+GET /userdata/66795241f4f82881e564a318 11:27:17 am
+GET /userdata/:%2266795241f4f82881e564a318%22 11:30:41 am
+GET /userdata/:%2266795241f4f82881e564a318%22 11:30:43 am
+GET /userdata/:%2266795241f4f82881e564a318%22 11:30:58 am
+GET /userdata/:%2266795241f4f82881e564a318%22 11:30:58 am
+GET /api/task/user/66795241f4f82881e564a318?filter=thisWeek 12:25:23 amReferenceError: Cannot access 'filter' before initialization
+    at getTasksByUserId (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:54:73)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:17:9
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+GET /api/task/user/66795241f4f82881e564a318?filter=thisWeek 12:25:23 amReferenceError: Cannot access 'filter' before initialization
+    at getTasksByUserId (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:54:73)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:17:9
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+GET /api/task/user/66795241f4f82881e564a318?filter=thisWeek 12:25:23 amReferenceError: Cannot access 'filter' before initialization
+    at getTasksByUserId (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:54:73)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:17:9
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+GET /api/task/user/66795241f4f82881e564a318?filter=thisWeek 12:25:23 amReferenceError: Cannot access 'filter' before initialization
+    at getTasksByUserId (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:54:73)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:17:9
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+GET /api/task/user/66795241f4f82881e564a318 12:25:46 amReferenceError: Cannot access 'filter' before initialization
+    at getTasksByUserId (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:54:73)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:17:9
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+GET /user/667963fa4ffb1b1638407656?filter=thisWeek 12:48:01 am
+GET /user/667963fa4ffb1b1638407656 12:49:04 am
+GET /user/667963fa4ffb1b1638407656 12:49:07 am
+GET /api/taskdata/[object%20Object] 2:18:08 am
+GET /api/taskdata/[object%20Object] 2:18:08 am
+GET /api/taskdata/[object%20Object] 2:21:52 am
+GET /api/taskdata/[object%20Object] 2:21:55 am
+GET /api/taskdata/[object%20Object] 2:22:06 am
+GET /api/taskdata/[object%20Object] 2:22:06 am
+GET /api/task/user/667963fa4ffb1b1638407656?filter=thisWeek 10:16:31 amError: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20)
+GET /api/task/user/667963fa4ffb1b1638407656?filter=thisWeek 11:26:55 amError: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20)
+GET /api/task/tasks/abhi@gmail.co?filter=today 1:36:16 pmCastError: Cast to ObjectId failed for value "abhi@gmail.co" (type string) at path "userId" for model "Usertask"
+    at SchemaObjectId.cast (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaType.applySetters (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaType.castForQuery (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\cast.js:375:32)
+    at cast (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\cast.js:73:20)
+    at Query.cast (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:4798:12)
+    at Query._castConditions (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._find (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:2233:8)
+    at model.Query.exec (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:4342:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GET /api/task/tasks/abhi@gmail.co?filter=today 1:37:36 pmCastError: Cast to ObjectId failed for value "abhi@gmail.co" (type string) at path "userId" for model "Usertask"
+    at SchemaObjectId.cast (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaType.applySetters (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaType.castForQuery (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\cast.js:375:32)
+    at cast (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\cast.js:73:20)
+    at Query.cast (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:4798:12)
+    at Query._castConditions (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._find (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:2233:8)
+    at model.Query.exec (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:4342:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GET /api/task/tasks/abhi@gmail.co?filter=today 1:41:23 pm
+GET /api/task/abhi@gmail.co?filter=today 1:42:24 pmReferenceError: User is not defined
+    at getTasksByUserIdOrEmail (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:277:26)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:17:9
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+GET /api/task/667963fa4ffb1b1638407656?filter=today 1:45:45 pmTypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at getTasksByUserIdOrEmail (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:285:37)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:17:9
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+GET /api/task/667963fa4ffb1b1638407656?filter=today 1:56:09 pmTypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at getTasksByUserIdOrEmail (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:288:37)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:17:9
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+GET /api/task/667963fa4ffb1b1638407656 2:02:30 pmTypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at getTasksByUserIdOrEmail (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:288:37)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:17:9
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+GET /api/task/tasks/667963fa4ffb1b1638407656?filter=today 2:05:50 pmTypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at getTasksByUserIdOrEmail (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:288:37)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:17:9
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+GET /api/task/tasks/667963fa4ffb1b1638407656?filter=today 2:09:17 pmTypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at getTasksByUserIdOrEmail (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:288:37)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:17:9
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:11:9)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+GET /api/task/user/667963fa4ffb1b1638407656?filter=thisWeek 5:40:40 pmError: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20)
+GET /api/task/tasks/abhinaya@gmail.com?filter=thisWeek 5:40:40 pmError: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20)
+GET /api/task/user/667963fa4ffb1b1638407656?filter=thisWeek 10:43:22 amTypeError: Cannot read properties of undefined (reading 'has')
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:12:27)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:280:10)
+GET /api/task/tasks/abhinaya@gmail.com?filter=thisWeek 10:43:22 amTypeError: Cannot read properties of undefined (reading 'has')
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:12:27)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:280:10)
+GET /api/task/user/667963fa4ffb1b1638407656?filter=thisWeek 10:43:22 amTypeError: Cannot read properties of undefined (reading 'has')
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:12:27)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:280:10)
+GET /api/task/tasks/abhinaya@gmail.com?filter=thisWeek 10:43:22 amTypeError: Cannot read properties of undefined (reading 'has')
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:12:27)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:280:10)
+GET /api/task/user/667963fa4ffb1b1638407656?filter=thisWeek 10:44:30 amTypeError: Cannot read properties of undefined (reading 'has')
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:12:27)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:280:10)
+GET /api/task/tasks/abhinaya@gmail.com?filter=thisWeek 10:44:30 amTypeError: Cannot read properties of undefined (reading 'has')
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:12:27)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:280:10)
+GET /api/task/user/667963fa4ffb1b1638407656?filter=thisWeek 10:44:30 amTypeError: Cannot read properties of undefined (reading 'has')
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:12:27)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:280:10)
+GET /api/task/tasks/abhinaya@gmail.com?filter=thisWeek 10:44:30 amTypeError: Cannot read properties of undefined (reading 'has')
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:12:27)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:280:10)
+POST /api/task/create 10:45:09 amTypeError: Cannot read properties of undefined (reading 'has')
+    at authenticateToken (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\middileware\auth.js:12:27)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\express\lib\router\index.js:47:12)
+PATCH /api/task/update/66819121d0b77b12bef029a2 11:45:28 amVersionError: No matching document found for id "66819121d0b77b12bef029a2" version 8 modifiedPaths "checklist, updatedAt"
+    at generateVersionError (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\model.js:514:10)
+    at model.save (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\model.js:572:28)
+    at updateTask (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:129:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+POST /api/task/share/66819121d0b77b12bef029a2 12:31:41 pmSyntaxError: Unexpected token 'n', "null" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:520:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+GET /api/task/user/66806759d70e75aec8bd16f3?filter=thisWeek 12:51:40 pmError: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20)
+GET /api/task/tasks/janakiabhinayakarasala3@gmail.com?filter=thisWeek 12:51:40 pmError: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20)
+GET /api/task/user/66806759d70e75aec8bd16f3?filter=thisWeek 3:19:32 pmMongoServerSelectionError: connection timed out
+    at Topology.selectServer (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:303:38)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async executeOperation (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:101:20)
+    at async FindCursor._initialize (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\find_cursor.js:58:26)
+    at async [kInit] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:463:27)
+    at async next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:520:13)
+    at async FindCursor.next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:237:16)
+    at async [Symbol.asyncIterator] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:162:34)
+GET /api/task/tasks/janakiabhinayakarasala3@gmail.com?filter=thisWeek 3:19:32 pmMongoServerSelectionError: connection timed out
+    at Topology.selectServer (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:303:38)
+    at async executeOperation (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:101:20)
+    at async FindCursor._initialize (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\find_cursor.js:58:26)
+    at async [kInit] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:463:27)
+    at async next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:520:13)
+    at async FindCursor.next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:237:16)
+    at async [Symbol.asyncIterator] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:162:34)
+    at async FindCursor.toArray (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:280:26)
+    at async model.Query._find (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:2263:14)
+    at async model.Query.exec (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:4342:63)
+GET /api/task/user/66806759d70e75aec8bd16f3?filter=thisWeek 3:19:37 pmMongoServerSelectionError: connection timed out
+    at Topology.selectServer (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:303:38)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async executeOperation (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:101:20)
+    at async FindCursor._initialize (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\find_cursor.js:58:26)
+    at async [kInit] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:463:27)
+    at async next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:520:13)
+    at async FindCursor.next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:237:16)
+    at async [Symbol.asyncIterator] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:162:34)
+GET /api/task/tasks/janakiabhinayakarasala3@gmail.com?filter=thisWeek 3:19:37 pmMongoServerSelectionError: connection timed out
+    at Topology.selectServer (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:303:38)
+    at async executeOperation (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:101:20)
+    at async FindCursor._initialize (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\find_cursor.js:58:26)
+    at async [kInit] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:463:27)
+    at async next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:520:13)
+    at async FindCursor.next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:237:16)
+    at async [Symbol.asyncIterator] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:162:34)
+    at async FindCursor.toArray (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:280:26)
+    at async model.Query._find (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:2263:14)
+    at async model.Query.exec (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:4342:63)
+GET /api/task/user/66806759d70e75aec8bd16f3?filter=thisWeek 7:17:57 pmMongoServerSelectionError: getaddrinfo ENOTFOUND ac-sfyijgh-shard-00-00.musjdwz.mongodb.net
+    at Topology.selectServer (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:303:38)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async executeOperation (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:101:20)
+    at async FindCursor._initialize (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\find_cursor.js:58:26)
+    at async [kInit] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:463:27)
+    at async next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:520:13)
+    at async FindCursor.next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:237:16)
+    at async [Symbol.asyncIterator] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:162:34)
+GET /api/task/tasks/janakiabhinayakarasala3@gmail.com?filter=thisWeek 7:17:57 pmMongoServerSelectionError: getaddrinfo ENOTFOUND ac-sfyijgh-shard-00-00.musjdwz.mongodb.net
+    at Topology.selectServer (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:303:38)
+    at async executeOperation (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:101:20)
+    at async FindCursor._initialize (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\find_cursor.js:58:26)
+    at async [kInit] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:463:27)
+    at async next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:520:13)
+    at async FindCursor.next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:237:16)
+    at async [Symbol.asyncIterator] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:162:34)
+    at async FindCursor.toArray (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:280:26)
+    at async model.Query._find (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:2263:14)
+    at async model.Query.exec (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:4342:63)
+GET /api/task/user/66806759d70e75aec8bd16f3?filter=thisWeek 7:18:01 pmMongoServerSelectionError: getaddrinfo ENOTFOUND ac-sfyijgh-shard-00-00.musjdwz.mongodb.net
+    at Topology.selectServer (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:303:38)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async executeOperation (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:101:20)
+    at async FindCursor._initialize (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\find_cursor.js:58:26)
+    at async [kInit] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:463:27)
+    at async next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:520:13)
+    at async FindCursor.next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:237:16)
+    at async [Symbol.asyncIterator] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:162:34)
+GET /api/task/tasks/janakiabhinayakarasala3@gmail.com?filter=thisWeek 7:18:01 pmMongoServerSelectionError: getaddrinfo ENOTFOUND ac-sfyijgh-shard-00-00.musjdwz.mongodb.net
+    at Topology.selectServer (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:303:38)
+    at async executeOperation (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:101:20)
+    at async FindCursor._initialize (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\find_cursor.js:58:26)
+    at async [kInit] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:463:27)
+    at async next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:520:13)
+    at async FindCursor.next (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:237:16)
+    at async [Symbol.asyncIterator] (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:162:34)
+    at async FindCursor.toArray (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:280:26)
+    at async model.Query._find (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:2263:14)
+    at async model.Query.exec (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\query.js:4342:63)
+PATCH /api/task/update/66819121d0b77b12bef029a2 11:30:27 pmVersionError: No matching document found for id "66819121d0b77b12bef029a2" version 17 modifiedPaths "checklist, updatedAt"
+    at generateVersionError (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\model.js:514:10)
+    at model.save (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\model.js:572:28)
+    at updateTask (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:78:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GET /api/user/me 11:53:32 pm
+GET /api/user/me 11:53:32 pm
+GET /api/auth/userdata/ 11:55:32 pm
+PATCH /api/task/updateAll/6684359ecad09f83fcf8c46e 10:09:20 amReferenceError: assignee is not defined
+    at updateAllTaskDetails (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:205:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+PATCH /api/task/updateAll/6684359ecad09f83fcf8c46e 10:09:23 amReferenceError: assignee is not defined
+    at updateAllTaskDetails (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:205:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+PATCH /api/task/updateAll/6684359ecad09f83fcf8c46e 10:09:25 amReferenceError: assignee is not defined
+    at updateAllTaskDetails (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:205:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+PATCH /api/task/updateAll/6684359ecad09f83fcf8c46e 10:09:25 amReferenceError: assignee is not defined
+    at updateAllTaskDetails (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:205:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+PATCH /api/task/updateAll/6684359ecad09f83fcf8c46e 10:09:27 amReferenceError: assignee is not defined
+    at updateAllTaskDetails (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:205:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+PATCH /api/task/updateAll/6684359ecad09f83fcf8c46e 10:09:29 amReferenceError: assignee is not defined
+    at updateAllTaskDetails (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:205:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+PATCH /api/task/updateAll/6684359ecad09f83fcf8c46e 10:09:30 amReferenceError: assignee is not defined
+    at updateAllTaskDetails (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:205:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+PATCH /api/task/updateAll/6684359ecad09f83fcf8c46e 10:09:30 amReferenceError: assignee is not defined
+    at updateAllTaskDetails (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:205:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+PATCH /api/task/update/668241555808ff75e2102c48 10:16:04 amVersionError: No matching document found for id "668241555808ff75e2102c48" version 19 modifiedPaths "status, checklist, updatedAt"
+    at generateVersionError (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\model.js:514:10)
+    at model.save (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\model.js:572:28)
+    at updateTask (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:78:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+PATCH /api/task/updateAll/6684d358fbb8a45b49538d3d 10:19:04 amSyntaxError: Expected double-quoted property name in JSON at position 315 (line 10 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:520:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+PATCH /api/task/update/6684359ecad09f83fcf8c46e 11:24:30 amVersionError: No matching document found for id "6684359ecad09f83fcf8c46e" version 14 modifiedPaths "status, checklist, updatedAt"
+    at generateVersionError (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\model.js:514:10)
+    at model.save (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\model.js:572:28)
+    at updateTask (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:78:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+PATCH /api/task/update/6684359ecad09f83fcf8c46e 11:24:43 amVersionError: No matching document found for id "6684359ecad09f83fcf8c46e" version 16 modifiedPaths "checklist, updatedAt"
+    at generateVersionError (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\model.js:514:10)
+    at model.save (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\model.js:572:28)
+    at updateTask (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:78:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+PATCH /api/task/update/6682c3350171603c47347610 12:38:23 pmVersionError: No matching document found for id "6682c3350171603c47347610" version 0 modifiedPaths "status, checklist, updatedAt"
+    at generateVersionError (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\model.js:514:10)
+    at model.save (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\node_modules\mongoose\lib\model.js:572:28)
+    at updateTask (C:\Users\yamun\OneDrive\Desktop\fullstack project\server\controllers\usertaskController.js:78:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
