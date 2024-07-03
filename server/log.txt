@@ -5334,3 +5334,9 @@ GET /api/task/user/668536020efb969877089908?filter=today 5:13:28 pm
 GET /api/task/user/668536020efb969877089908?filter=thisweek 5:13:32 pm
 GET /api/task/user/668536020efb969877089908?filter=thismonth 5:13:35 pm
 GET /api/task/user/668536020efb969877089908?filter=thisweek 5:13:38 pm
+POST /api/auth/register 7:50:27 pm
+POST /api/auth/login 7:50:42 pm
+GET /api/auth/userdata/66855e2badb099d051708a5e 7:50:43 pm
+GET /api/task/user/66855e2badb099d051708a5e?filter=thisweek 7:50:43 pm
+GET /api/auth/userdata/66855e2badb099d051708a5e 7:50:43 pm
+GET /api/task/user/66855e2badb099d051708a5e?filter=thisweek 7:50:44 pm
