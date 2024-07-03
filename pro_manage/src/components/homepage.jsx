@@ -12,7 +12,7 @@ function Home(){
     return(
     <div className={styles.homepage}>
         <div className={styles.imgpart}>
-         <img src="/images/Group.png" alt="Group"/>
+         <img src="./images/Group.png" alt="Group"/>
          <div><h1 className={styles.htag}>Welcome aboard my friend</h1>
             <p className={styles.ptag}>just a couple of clicks and we start</p>
             </div> 
